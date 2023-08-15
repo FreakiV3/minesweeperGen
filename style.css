@@ -1,0 +1,93 @@
+/* Apply a glass effect to the main content */
+.main {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Set the background image */
+body {
+  background-image: url('Background/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #1f2124; /* Fallback color in case image fails to load */
+}
+
+/* Style the form and its elements */
+.form-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the input fields and labels */
+.input-container {
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #7289da;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #5f73b6;
+}
+
+/* Style the example container */
+.example-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Style the GitHub corner */
+.github-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.title {
+  font-size: 2.5rem;
+  color: #7289da;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
