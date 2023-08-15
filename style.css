@@ -11,7 +11,7 @@
 
 /* Set the background image */
 body {
-  background-image: url('Background/Background.jpg');
+  background-image: url('Background/Background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
