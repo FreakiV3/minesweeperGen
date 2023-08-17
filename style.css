@@ -3,6 +3,7 @@
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 15px;
+  background-image: url('Background/background1.png');
   padding: 20px;
   margin: 20px auto;
   max-width: 800px;
